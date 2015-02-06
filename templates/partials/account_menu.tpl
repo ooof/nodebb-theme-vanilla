@@ -28,7 +28,7 @@
 		<!-- IF showHidden -->
 		<li><a href="{config.relative_path}/user/{userslug}/settings"><i class="fa fa-gear"></i> [[user:settings]]</a></li>
 		<li><a href="{config.relative_path}/user/{userslug}/edit"><i class="fa fa-pencil-square-o"></i> [[user:edit]]</a></li>
-		<li><button class="btn btn-primary btn-xs" data-action="new"><i class="fa fa-plus"></i> [[groups:new_group]]</button></li>
+		<li><a href="javascript:void 0" data-action="new"><i class="fa fa-plus"></i> [[groups:new_group]]</a></li>
 		<!-- ENDIF showHidden -->
 	</ul>
 </div>
