@@ -15,11 +15,7 @@
       <div class="form-group">
         <label class="col-md-4 control-label" for="description">Description</label>
         <div class="col-md-6">
-          <div class="input-group">
-            <input id="description" name="description" type="textarea" placeholder="Description.." class="form-control" rows="3">
-            <span class="help-text">
-            </span>
-          </div>
+          <textarea id="description" name="description" placeholder="Descripion..." class="form-control" rows="3"></textarea>
         </div>
       </div>
     </form>
