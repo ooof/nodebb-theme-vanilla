@@ -16,7 +16,7 @@
         <label class="col-md-4 control-label" for="description">Description</label>
         <div class="col-md-6">
           <div class="input-group">
-            <input id="description" name="description" type="text" placeholder="Description.." class="form-control input-md">
+            <input id="description" name="description" type="textarea" placeholder="Description.." class="form-control" rows="3">
             <span class="input-group-addon">
               <span id="description-notify"><i class="fa fa-circle-o"></i></span>
             </span>
