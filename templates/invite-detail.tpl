@@ -2,20 +2,20 @@
   <div class="col-md-5 col-md-offset-4">
     <div class="panel panel-primary">
       <div class="panel-heading">
-        Panel content
+        {email}
       </div>
       <div class="panel-body">
-        Panel footer
+        {description}
       </div>
     </div>
   </div>
   <div class="col-md-2">
     <div class="btn-group-vertical" role="group">
       <button type="button" class="btn btn-success">
-        Agree <span class="badge">0</span>
+        Agree <span class="badge">{agreeCount}</span>
       </button>
       <button type="button" class="btn btn-danger">
-        Disagree <span class="badge">0</span>
+        Disagree <span class="badge">{disagreeCount}</span>
       </button>
     </div>
   </div>
