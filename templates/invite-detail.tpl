@@ -11,10 +11,10 @@
   </div>
   <div class="col-md-2">
     <div class="btn-group-vertical" role="group">
-      <button type="button" class="btn btn-success">
+      <button id="agree" type="button" class="btn btn-success">
         Agree <span class="badge">{agreeCount}</span>
       </button>
-      <button type="button" class="btn btn-danger">
+      <button id="disagree" type="button" class="btn btn-danger">
         Disagree <span class="badge">{disagreeCount}</span>
       </button>
     </div>
