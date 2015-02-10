@@ -20,3 +20,5 @@
     </div>
   </div>
 </div>
+
+<input id="inviteId" type="hidden" value="{inviteId}" />
