@@ -10,9 +10,18 @@
 				<input class="title form-control" type="text" tabIndex="2" placeholder="[[topic:composer.title_placeholder]]" />
 			</div>
 			<!-- ELSE -->
+			<!-- IF isInvite -->
+			<div class="col-lg-12">
+				<input class="title form-control" type="text" tabIndex="1" placeholder="Enter name here" />
+			</div>
+			<div class="col-lg-12">
+				<input class="email form-control" type="text" tabIndex="1" placeholder="Enter email here" />
+			</div>
+			<!-- ELSE -->
 			<div class="col-lg-12">
 				<input class="title form-control" type="text" tabIndex="1" placeholder="[[topic:composer.title_placeholder]]" />
 			</div>
+			<!-- ENDIF isInvite -->
 			<!-- ENDIF showHandleInput -->
 		</div>
 
