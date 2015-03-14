@@ -22,6 +22,7 @@
 							<br/>
 							<!-- IF inviteStatus -->
 							<i class="account-invite-status fa fa-circle status {inviteStatus}" title="{inviteStatus}"></i>
+							<span>{inviteNumber}</span>
 							<!-- ENDIF inviteStatus -->
 							<!-- IF !config.disableChat -->
 							<a id="chat-btn" href="#" class="btn btn-primary btn-sm">[[user:chat]]</a>
