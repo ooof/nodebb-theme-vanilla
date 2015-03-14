@@ -21,11 +21,11 @@
 
 			<h4>[[global:privacy]]</h4>
 			<div class="well">
-				<div class="checkbox">
+				<!-- <div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showemail" /> <strong>[[user:show_email]]</strong>
 					</label>
-				</div>
+				</div> -->
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showfullname" /> <strong>[[user:show_fullname]]</strong>
