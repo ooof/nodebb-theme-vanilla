@@ -12,10 +12,10 @@
 			<!-- ELSE -->
 			<!-- IF isInvite -->
 			<div class="col-lg-12">
-				<input class="title form-control" type="text" tabIndex="1" placeholder="Enter name here" />
+				<input class="title form-control" type="text" tabIndex="1" placeholder="[[topic:enter_name_here]]" />
 			</div>
 			<div class="col-lg-12">
-				<input class="email form-control" type="text" tabIndex="1" placeholder="Enter email here" />
+				<input class="email form-control" type="text" tabIndex="1" placeholder="[[topic:enter_email_here]]" />
 			</div>
 			<!-- ELSE -->
 			<div class="col-lg-12">
