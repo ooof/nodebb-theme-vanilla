@@ -22,14 +22,13 @@
 
 			<div class="navbar-collapse collapse navbar-ex1-collapse">
 				<!-- IF !maintenanceHeader -->
+				<!-- IF loggedIn -->
 				<ul id="main-nav" class="nav navbar-nav pull-left">
-					<!-- IF loggedIn -->
 					<li>
 						<a href="{relative_path}/unread" title="[[global:header.unread]]">
 							<i id="unread-count" class="fa fa-fw fa-inbox" data-content="0" ></i><span class="visible-xs-inline"> [[global:header.unread]]</span>
 						</a>
 					</li>
-					<!-- ENDIF loggedIn -->
 
 					<li>
 						<a href="{relative_path}/recent" title="[[global:header.recent]]">
@@ -86,6 +85,7 @@
 					</li>
 					<!-- END navigation -->
 				</ul>
+				<!-- ENDIF loggedIn>
 
 				<!-- IF loggedIn -->
 				<ul id="logged-in-menu" class="nav navbar-nav navbar-right pull-right">

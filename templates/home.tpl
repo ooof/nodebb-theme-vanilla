@@ -4,6 +4,9 @@
 
 <div class="row home" itemscope itemtype="http://www.schema.org/ItemList">
 	<div class="col-lg-9 col-sm-12" no-widget-class="col-lg-12 col-sm-12" no-widget-target="sidebar">
+		<!-- IF !categories -->
+		<img src="/images/martin.jpg">
+		<!-- ENDIF !categories -->
 		<!-- BEGIN categories -->
 		<div class="{categories.class}" data-cid="{categories.cid}" data-numRecentReplies="{categories.numRecentReplies}">
 			<meta itemprop="name" content="{categories.name}">
