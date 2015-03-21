@@ -39,7 +39,7 @@
 								{username}
 							</span>
 							<span>
-								{invitestatue}
+								{invitestatus}
 							</span>
 						</div>
 						<!-- ENDIF !isSelf -->
