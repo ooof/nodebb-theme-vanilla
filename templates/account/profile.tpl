@@ -20,10 +20,6 @@
 
 							<!-- IF !isSelf -->
 							<br/>
-							<!-- IF inviteStatus -->
-							<i class="account-invite-status fa fa-circle status {inviteStatus}" title="{inviteStatus}"></i>
-							<span>{inviteNumber}</span>
-							<!-- ENDIF inviteStatus -->
 							<!-- IF !config.disableChat -->
 							<a id="chat-btn" href="#" class="btn btn-primary btn-sm">[[user:chat]]</a>
 							<!-- ENDIF !config.disableChat -->
@@ -31,13 +27,22 @@
  							<a id="unfollow-btn" href="#" class="btn btn-warning btn-sm <!-- IF !isFollowing -->hide<!-- ENDIF !isFollowing -->">[[user:unfollow]]</a>
 							<!-- ENDIF !isSelf -->
 						</div>
-
 						<!-- IF banned -->
 						<div class="text-center">
 							<span class="label label-danger">[[user:banned]]</span>
 						</div>
 						<!-- ENDIF banned -->
 						<hr/>
+						<!-- IF !isSelf -->
+						<div class="text-center">
+							<span>
+								{username}
+							</span>
+							<span>
+								{inviteStatue}
+							</span>
+						</div>
+						<!-- ENDIF !isSelf -->
 						<div class="text-center account-stats">
 
 							<div class="inline-block text-center">
@@ -53,6 +58,11 @@
 							<div class="inline-block text-center">
 								<span class="human-readable-number" title="{profileviews}">{profileviews}</span>
 								<span class="account-bio-label">[[user:profile_views]]</span>
+							</div>
+
+							<div class="inline-block text-center">
+								<span class="human-readable-number" title="{invitecount}">{invitecount}</span>
+								<span class="account-bio-label">[[user:profile_invite]]</span>
 							</div>
 						</div>
 					</div>
