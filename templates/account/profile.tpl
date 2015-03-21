@@ -39,7 +39,7 @@
 								{username}
 							</span>
 							<span>
-								{inviteStatue}
+								{invitestatue}
 							</span>
 						</div>
 						<!-- ENDIF !isSelf -->
@@ -61,7 +61,7 @@
 							</div>
 
 							<div class="inline-block text-center">
-								<span class="human-readable-number" title="{invitecount}">{invitecount}</span>
+								<span class="human-readable-number" title="{votecount}">{votecount}</span>
 								<span class="account-bio-label">[[user:profile_invite]]</span>
 							</div>
 						</div>
