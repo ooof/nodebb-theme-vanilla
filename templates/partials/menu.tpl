@@ -85,7 +85,7 @@
 					</li>
 					<!-- END navigation -->
 				</ul>
-				<!-- ENDIF loggedIn>
+				<!-- ENDIF loggedIn -->
 
 				<!-- IF loggedIn -->
 				<ul id="logged-in-menu" class="nav navbar-nav navbar-right pull-right">
