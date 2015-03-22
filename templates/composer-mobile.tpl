@@ -9,7 +9,12 @@
 			<!-- ENDIF showHandleInput -->
 			<div class="<!-- IF showHandleInput -->col-xs-9<!-- ELSE -->col-xs-12<!-- ENDIF showHandleInput -->">
 				<div class="input-group">
+					<!-- IF isInvite -->
+					<input class="title form-control" type="text" placeholder="[[topic:enter_name_here]]" />
+					<input class="email form-control" type="text" placeholder="[[topic:enter_email_here]]" />
+					<!-- ELSE -->
 					<input class="title form-control" type="text" placeholder="[[topic:composer.title_placeholder]]" />
+					<!-- ENDIF isInvite -->
 					<div class="input-group-btn action-bar">
 						<button class="btn btn-default" data-action="discard"><i class="fa fa-times"></i></button>
 						<button class="btn btn-primary" data-action="post"><i class="fa fa-check"></i></button>
